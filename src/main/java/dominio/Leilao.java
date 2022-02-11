@@ -14,6 +14,7 @@ public class Leilao {
 		this.lances = new ArrayList<Lance>();
 	}
 	
+	// Adicionando lance e caso não haja leilão, não serão aceitos lances
 	public void propoe(Lance lance) {
 		
 		if(lances.isEmpty() || !ultimoLanceDado().getUsuario().equals(lance.getUsuario())) {

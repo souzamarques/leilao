@@ -10,7 +10,8 @@ public class Avaliador {
 	private double maiorLance = Double.NEGATIVE_INFINITY;
 	private double menorLance = Double.POSITIVE_INFINITY;
 	private List<Lance> maiores;
-	
+
+	// Avalia lances feitos pelo jogadores, armazena os tres maiores valores e não aceita um leilao sem lances
 	public void avalia(Leilao leilao) {
 		
 		if(leilao.getLances().size() == 0) {
