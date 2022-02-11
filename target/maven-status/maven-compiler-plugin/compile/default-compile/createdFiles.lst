@@ -1,0 +1,7 @@
+dominio/Leilao.class
+dominio/Lance.class
+dominio/Main.class
+dominio/Usuario.class
+dominio/Avaliador$1.class
+builder/CriadorDeLeilao.class
+dominio/Avaliador.class
